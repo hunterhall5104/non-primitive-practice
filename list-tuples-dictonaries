@@ -1,0 +1,30 @@
+#List practice
+lst_a = []
+print(lst_a)
+lst_a.append(1)
+print(lst_a)
+lst_a.remove(1)
+print(lst_a)
+lst_a.append(1000)
+lst_b = [1,2,3,4, "hello"]
+lst_a.extend(lst_b)
+print(lst_a)
+del lst_a [:]
+print(lst_a)
+
+#Tuple practice
+tup = (1, 2, 2, 2, "hello", 4, 1000)
+print(tup)
+print(tup.index("hello"))
+print(tup.count(2))
+
+#Dictionary practice
+dictext = {1 : 1234, 2 : 42352, 3 : 783482, 4 : 88493, 5 : 66348367}
+print(dictext)
+print(dictext[1])
+print(len(dictext))
+print(dictext.get(5))
+print(dictext.keys())
+dictext [3] = 123123
+print(dictext)
+dictext.pop(3)
